@@ -1,0 +1,42 @@
+*,
+*::after *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#message-container {
+  border: 1px solid lightblue;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#message-container div {
+  border-bottom: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+form input {
+  padding: 0.5rem;
+  width: 80%;
+}
+
+label {
+  display: inline-block;
+  width: 5rem;
+  text-align: end;
+  padding-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  width: 4rem;
+}
+
+.spacer {
+  margin: 0.5rem;
+}

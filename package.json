@@ -1,0 +1,19 @@
+{
+  "name": "socketio-ex-1",
+  "version": "1.0.0",
+  "description": "The code in this repository is based on the [Learn Socket.io In 30 Minutes](https://youtu.be/ZKEqqIO7n-k) video.",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "client:wait": "wait-on tcp:3000 npm run client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "wait-on": "^5.3.0"
+  }
+}
